@@ -11,7 +11,7 @@ public class MyStore<K, V> {
     public V get(K key) throws Exception {
         V v = romanNumerals.get(key);
         if(v == null)
-            return (v)"Not Found!";
+            return (V)"Not Found!";
         return v;
     }
     public int getSize() {
