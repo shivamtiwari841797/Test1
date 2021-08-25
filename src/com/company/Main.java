@@ -2,7 +2,7 @@ package com.company;
 
 public class Main {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 	// write your code here
         MyStore<Integer, String> myStore = new MyStore<>();
         myStore.add(1, "I");
